@@ -3,5 +3,7 @@ import React from 'react'
 import AutoScalingText from '../auto-scaling-text'
 
 test('renders', () => {
-  render(<AutoScalingText />)
+  const {debug, container} = render(<AutoScalingText />)
+  debug()
+  // console.log(container.innerHTML)
 })
