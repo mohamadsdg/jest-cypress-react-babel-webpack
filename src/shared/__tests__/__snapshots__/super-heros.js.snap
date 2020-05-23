@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check filter render should render flyingHero 1`] = `
+Array [
+  Object {
+    "name": "Dynaguy",
+    "powers": Array [
+      "disintegrationray",
+      "fly",
+    ],
+  },
+  Object {
+    "name": "Apogee",
+    "powers": Array [
+      "gravity control",
+      "fly",
+    ],
+  },
+]
+`;
