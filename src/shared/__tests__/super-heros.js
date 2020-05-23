@@ -1,6 +1,5 @@
 // import React from 'react'
 import {getFlyingSuperHeros} from '../../other/super-heros'
-import {} from '@testing-library/react'
 
 describe('check filter render', () => {
   // test('static', () => {
