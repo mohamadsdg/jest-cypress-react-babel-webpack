@@ -9,7 +9,7 @@ describe('check filter render', () => {
     expect(flyingHero).toEqual([
       {name: 'Dynaguy', powers: ['disintegrationray', 'fly']},
       {name: 'Apogee', powers: ['gravity control', 'fly']},
-      // {name: 'Jack-Jack', powers: ['shapeshifting', 'fly']},
+      {name: 'Jack-Jack', powers: ['shapeshifting', 'fly']},
     ])
   })
 })
