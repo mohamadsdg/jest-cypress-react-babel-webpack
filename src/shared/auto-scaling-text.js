@@ -3,9 +3,15 @@ import PropTypes from 'prop-types'
 import styles from './auto-scaling-text.module.css'
 
 function getScale(node) {
+  // console.log(node)
+  debugger
   if (!node) {
+    // console.log('in here')
+    // debugger
     return 1
   }
+  // console.log('not in here')
+  // debugger
   const parentNode = node.parentNode
 
   const availableWidth = parentNode.offsetWidth
