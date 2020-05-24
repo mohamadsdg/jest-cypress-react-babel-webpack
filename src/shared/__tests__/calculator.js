@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import {render, fireEvent} from '@testing-library/react'
+import {render, fireEvent} from 'calculator-test-utils'
 // import * as jestDOM from '@testing-library/jest-dom'
 // import '@testing-library/jest-dom/extend-expect'
 import React from 'react'
