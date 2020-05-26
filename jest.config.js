@@ -15,5 +15,9 @@ module.exports = {
       statements: 100,
     },
   },
-  projects: ['./test/jest.client.js', './test/jest.server.js'],
+  projects: [
+    './test/jest.lint.js',
+    './test/jest.client.js',
+    './test/jest.server.js',
+  ],
 }
