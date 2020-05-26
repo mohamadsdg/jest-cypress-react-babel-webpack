@@ -58,8 +58,8 @@ describe('calculator', () => {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        color: white;
-        background: #1c191c;
+        color: #1c191c;
+        background: white;
       }
 
       <div
